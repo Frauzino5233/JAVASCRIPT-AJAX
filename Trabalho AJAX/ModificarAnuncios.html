@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerenciador de Anúncios</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div id="divCentral">
+    <div class="pageLado1">
+        <form  class="formLogin">
+            <h1>Gerenciador de Anuncios</h1>
+            <label>ID:</label>
+            <input type="text" placeholder="Informe o Id do Produto" autofocus="true" id="id"/>
+
+            <label>Titulo:</label>
+            <input type="text" placeholder="Informe o titulo do Produto" autofocus="true" id="Titulo"/>
+
+            <label>Descrição:</label>
+            <input type="text"placeholder="Informe a descrição do Produto" autofocus="true" id="Descricao"/>
+
+            <label>Preço:</label>
+            <input type="text" placeholder="Informe o Preço do Produto" autofocus="true" id="Preco"/>
+
+            <input type="button" value="Criar Anuncio" class="botaoValidar" id="CriarAnuncio"/>
+            <input type="button" value="Apagar Anuncio" class="botaoValidar" id="ApagarAnuncio"/>     
+            <input type="button" value="Editar Anuncio" class="botaoValidar" id="Editar"/>   
+            <input type="button" value="Logout" class="botaoValidar" id="Voltar"/>
+        </form>
+    </div>
+
+    <div class="pageLado2">
+        <form  class="formLogin">
+            <div id="lista-anuncios" class="anuncios">
+            </div>
+        </form>
+    </div>
+</div>
+    <script src="ModificarAnuncios.js"></script>
+</body>
+</html>
